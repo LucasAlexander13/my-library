@@ -2,16 +2,20 @@
 
 ## [Índice](../README.md/#lista-de-cursos)
 
-1. [Introdução](#introdução)
-    1. [Tags](#tags)
-    2. [Estrutura](#estrutura)
-    3. [Comentários](#comentários)
-    4. [Elementos](#elementos)
-    5. [Tags ou Elementos?](#tags-ou-elementos)    
-    5. [Elementos Vazios](#elementos-vazios)
-    6. [Elementos Aninhados](#elementos-aninhados)
+1. [Começando](#começando)
+    1. [Introdução](#introdução)
+    2. [Tags](#tags)
+    3. [Estrutura](#estrutura)
+    4. [Comentários](#comentários)
+    5. [Elementos](#elementos)
+    6. [Tags ou Elementos?](#tags-ou-elementos)    
+    7. [Elementos Vazios](#elementos-vazios)
+    8. [Elementos Aninhados](#elementos-aninhados)
 
 
+# Começando
+
+Nesta seção você entenderá um pouco melhor de onde surgiu o HTML, para que serve, e quais suas principais características.
 ## [Introdução](#índice)
 
 HTML significa _**H**yper**T**ext **M**arkup **L**anguage_, e é a linguagem de marcação mais utilizada para a criação de páginas Web. 
