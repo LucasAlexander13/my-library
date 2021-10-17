@@ -7,6 +7,7 @@
     2. [Estrutura](#estrutura)
     3. [Comentários](#comentários)
     4. [Elementos](#elementos)
+    5. [Tags ou Elementos?](#tags-ou-elementos)
 
 ## [Introdução](#índice)
 
@@ -110,3 +111,13 @@ Onde:
 - **class="valor"** é o atributo, contendo o valor _exemplo_
 - **Um Parágrafo com atributo** é o conteúdo desse elemento
 - **\</p\>** é a tag de fechamento
+
+### [Tags ou Elementos?](#índice)
+
+Você deve estar pensando qual a diferença entre tags e elementos.
+
+Tecnicamento, um **elemento** de HTML é um conjunto de componentes, entre eles a tag de abertura, seus atributos, a tag de fechamento, e qualquer conteúdo entre as tags.
+
+Por outro lado, uma **tag** de HTML é usada para marcar o começo e o fim de um elemento. 
+
+É muito comum que esses termos sejam intercaláveis, então não se preocupe muito com o nome, e sim com a estrutura.
