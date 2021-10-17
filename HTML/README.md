@@ -5,6 +5,7 @@
 1. [Introdução](#introdução)
     1. [Tags](#tags)
     2. [Estrutura](#estrutura)
+    3. [Comentários](#comentários)
 
 ## [Introdução](#índice)
 
@@ -58,4 +59,24 @@ Veja a seguir um exemplo de uma página de "Olá Mundo!":
 ~~~
 
 Irei explicar sobre outras tags posteriormente.
+
+### [Comentários](#índice)
+
+Comentários são uma parte importante de qualquer código, eles servem para _melhorar a leitura_ do código por outros desenvolvedores, e são ignorados pelo navegador durante a execução.
+
+É uma boa prática adicionar comentários, especialmente em documentos complexos, para indicar seções dentro do documento, ou adicionar anotações para qualquer um que vá ler o código.
+
+Um comentário em HTML é inserido entre as tags \<!-- e --\>. Veja o mesmo exemplo, só que agora com comentários:
+
+~~~html
+<html>
+    <head></head>
+    <body>
+        <h1>Olá Mundo!</h1>
+        <!-- Isso é um comentário-->
+    </body>
+</html>
+~~~
+
+Qualquer conteúdo inserido entre as tags de comentário será completamente _ignorado_ pelo navegador.
 
