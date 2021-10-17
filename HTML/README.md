@@ -7,7 +7,9 @@
     2. [Estrutura](#estrutura)
     3. [Comentários](#comentários)
     4. [Elementos](#elementos)
-    5. [Tags ou Elementos?](#tags-ou-elementos)
+    5. [Tags ou Elementos?](#tags-ou-elementos)    
+    5. [Elementos Vazios](#elementos-vazios)
+
 
 ## [Introdução](#índice)
 
@@ -121,3 +123,22 @@ Tecnicamento, um **elemento** de HTML é um conjunto de componentes, entre eles 
 Por outro lado, uma **tag** de HTML é usada para marcar o começo e o fim de um elemento. 
 
 É muito comum que esses termos sejam intercaláveis, então não se preocupe muito com o nome, e sim com a estrutura.
+
+### [Elementos Vazios](#índice)
+
+A maioria dos elementos começa com uma tag de abertura e termina com uma tag de fechamento, que indicam onde o elemento começa e onde termina.
+
+Contudo, existe um grupo de elementos que são uma exceção à regra. Esses elementos são chamados de vazios (_empty_ ou _void_).
+
+Elementos vazios possuem apenas tag de abertura, porque nenhum conteúdo pode ser adicionado a eles. Entenda o exemplo com o elemento **br**.
+
+~~~html
+<p>Olá<br>Mundo</p>
+~~~
+
+Esse código ira exibir na tela algo semelhante a isso:
+
+<p>Olá<br>Mundo</p>
+
+O elemento _br_ cria uma quebra de linha. Outros elementos vazios muito comuns são **\<img\>**, **\<input\>**, **\<link\>**, **\<meta\>** e **\<hr\>**
+
