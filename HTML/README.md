@@ -3,9 +3,11 @@
 ## Índice
 
 1. [Introdução](#introdução)
-    1. [Tags](#começando)
+    1. [Tags](#tags)
+    2. [Estrutura](#estrutura)
 
 ## [Introdução](#índice)
+
 HTML significa _**H**yper**T**ext **M**arkup **L**anguage_, e é a linguagem de marcação mais utilizada para a criação de páginas Web. 
 
 Como seu nome sugere, ela é capaz de "marcar" o texto usando **_tags_**, uma espécie de rótulo paara separar o texto em partes. 
@@ -30,8 +32,30 @@ As tags de HTML geralmente possuem um par, como **\<html\>** e **\</html\>**. A 
 
 Por exemplo, a tag **\<p\>** indica a marcação de um parágrafo, então qualquer conteúdo entre **\<p\>** e **\</p\>** é interpretado pelo navegador como uma estrutura de parágrafo, e você pode escrever essa estrutura da seguinte forma:
 
-~~~~HTML
+~~~html
 <p>Isso é um parágrafo</p>
-~~~~
+~~~
 
 As tags de abertura e fechamento são idênticas, com exceção da barra **/** presente após a abertura da tag de fechamento, que serve para indicar ao navegador que aquela estrutura está sendo finalizada.
+
+### [Estrutura](#índice)
+
+O documento HTML é dividido basicamente em duas partes:
+
+**Head** - contém a informação sobre o documento HTML, como o título da página, a versão do HTML, Meta Dados, entre outros.
+
+**Body** - Contém todo o restante que será visualizado na página web.
+
+Veja a seguir um exemplo de uma página de "Olá Mundo!":
+
+~~~html
+<html>
+    <head></head>
+    <body>
+        <h1>Olá Mundo!</h1>
+    </body>
+</html>
+~~~
+
+Irei explicar sobre outras tags posteriormente.
+
