@@ -9,6 +9,7 @@
     4. [Elementos](#elementos)
     5. [Tags ou Elementos?](#tags-ou-elementos)    
     5. [Elementos Vazios](#elementos-vazios)
+    6. [Elementos Aninhados](#elementos-aninhados)
 
 
 ## [Introdução](#índice)
@@ -142,3 +143,20 @@ Esse código ira exibir na tela algo semelhante a isso:
 
 O elemento _br_ cria uma quebra de linha. Outros elementos vazios muito comuns são **\<img\>**, **\<input\>**, **\<link\>**, **\<meta\>** e **\<hr\>**
 
+### [Elementos Aninhados](#índice)
+
+A maioria dos elementos HTML pode conter qualquer número de outros elementos (com exceção de elementos vazios), que são em sua maioria feitos por tags, atributos e conteúdo, e qualquer outro elemento.
+
+O exemplo a seguir mostra como o elemento **p** pode conter outros elementos dentro dele, sem quebrar sua estrutura.
+
+~~~html
+<p><i>Olá</i><br><b>Mundo</b></p>
+~~~
+
+Essa linha de de código irá exibir na tela algo semelhante a isso:
+
+<p><i>Olá</i><br><b>Mundo</b></p>
+
+Repare como mesmo contendo outros elementos, a estrutura do parágrafo se manteve a mesma.
+
+Você também deve ter reparado em dois novos estilos de marcação, o _itálico_ e o **negrito**, que são marcados pelos elementos **\<i\>** e **\<b\>**, respectivamente.
