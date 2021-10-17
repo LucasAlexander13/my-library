@@ -1,4 +1,4 @@
-# [HTML](../README.md)
+# [HTML](../README.md/#my-library)
 
 ## [Índice](../README.md/#lista-de-cursos)
 
@@ -6,6 +6,7 @@
     1. [Tags](#tags)
     2. [Estrutura](#estrutura)
     3. [Comentários](#comentários)
+    4. [Elementos](#elementos)
 
 ## [Introdução](#índice)
 
@@ -73,10 +74,39 @@ Um comentário em HTML é inserido entre as tags \<!-- e --\>. Veja o mesmo exem
     <head></head>
     <body>
         <h1>Olá Mundo!</h1>
-        <!-- Isso é um comentário-->
+        <!-- Isso é um comentário -->
     </body>
 </html>
 ~~~
 
 Qualquer conteúdo inserido entre as tags de comentário será completamente _ignorado_ pelo navegador.
 
+### [Elementos](#índice)
+
+Um elemento HTML é um componente individual que possui um significado ou semântica. Por exemplo, o elemento **título** representa o título do documento, podendo ser inserido entre a tag _head_ da seguinte forma:
+
+~~~html
+<html>
+    <head>
+        <title>Título do documento</title>
+    </head>
+    <body>
+        <h1>Olá Mundo!</h1>
+        <!-- Isso é um comentário-->
+    </body>
+</html>
+~~~
+
+A maioria dos elementos é escrito com uma tag de abertura e uma tag de fechamento. Elementos também podem ter _atributos_, que definem propriedades especiais.
+
+Por exemplo, o parágrafo, representado pelo elemento p, poderia ser escrito da seguinte forma:
+
+~~~html
+<p class="exemplo">Um Parágrafo com atributo</p>
+~~~
+
+Onde:
+- **\<p\>** é a tag de abertura
+- **class="valor"** é o atributo, contendo o valor _exemplo_
+- **Um Parágrafo com atributo** é o conteúdo desse elemento
+- **\</p\>** é a tag de fechamento
