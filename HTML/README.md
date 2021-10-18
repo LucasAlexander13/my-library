@@ -4,13 +4,13 @@
 
 1. [Começando](#começando)
     1. [Introdução](#introdução)
-    2. [Tags](#tags)
-    3. [Estrutura](#estrutura)
-    4. [Comentários](#comentários)
-    5. [Elementos](#elementos)
-    6. [Tags ou Elementos?](#tags-ou-elementos)    
-    7. [Elementos Vazios](#elementos-vazios)
-    8. [Elementos Aninhados](#elementos-aninhados)
+        1. [Tags](#tags)
+        2. [Estrutura](#estrutura)
+        3. [Comentários](#comentários)
+    2. [Elementos](#elementos)
+        1. [Tags ou Elementos?](#tags-ou-elementos)    
+        2. [Elementos Vazios](#elementos-vazios)
+        3. [Elementos Aninhados](#elementos-aninhados)
 2. [Formatação](#formatação)
     1. [Semântica](#semântica)
 
@@ -177,3 +177,6 @@ Durante muito tempo, o HTML seguiu um padrão baseado em _divs_, uma estrutura q
 
 Porém, em 2014, com o advindo do HTML5, essa sopa de divs virou passado. Agora é possivel estruturar melhor as páginas, melhorando a _performance_ do conteúdo, e também permitindo uma maior _acessibilidade_. Entenda agora os elementos semânticos que formam a estrutura da página.
 
+### [**\<header\>**](#índice)
+
+É o cabeçalho da página
