@@ -174,13 +174,21 @@ Você também deve ter reparado em dois novos estilos de marcação, o _itálico
 
 # [Formatação](#índice)
 
-Agora que você já conhece o básico de HTML, Vamos nos aprofundar um pouco mais na formatação.
+Agora que você já conhece o básico de HTML, vamos nos aprofundar mais na formatação e na estrutura semântica de uma página web.
 
 ## [Semântica](#índice)
 
 Durante muito tempo, o HTML seguiu um padrão baseado em _divs_, uma estrutura que permitia a criação de pequenos blocos de conteúdo para organizar a página.
 
-Porém, em 2014, com o advindo do HTML5, essa sopa de divs virou passado. Agora é possivel estruturar melhor as páginas, melhorando a _performance_ do conteúdo, e também permitindo uma maior _acessibilidade_. Entenda agora os elementos semânticos que formam a estrutura da página.
+Porém, em 2014, com o advindo do HTML5, essa sopa de divs virou passado. Agora é possivel estruturar melhor as páginas, melhorando a _performance_ do conteúdo, e também permitindo uma maior _acessibilidade_. 
+
+As principais estruturas você já viu, sendo elas os elementos **\<html\>**, **\<head\>** e **\<body\>**, mas vamos nos aprofundar no seu funcionamento. Entenda agora um pouco mais sobre os elementos semânticos que formam a estrutura da página.
+
+***\<html\>*** - Essa tag é a raiz do seu documento, todos os elementos HTML devem estar dentro dela. Dentro da tag html definimos propriedades gerais, como informar ao navegador qual o idioma do documento.
+
+***\<head\>*** - A tag head contém elementos que serão lidos pelo navegador, como os metadados - alguns exemplos são: a codificação de caracteres, o JavaScript com a tag script, folhas de estilo CSS e o título da página, com a tag title.
+
+***\<body\>*** - Dentro da tag body podemos colocar todo o conteúdo visível ao usuário, como textos, imagens e vídeos.
 
 ### [**\<header\>**](#índice)
 
