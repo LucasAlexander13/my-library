@@ -209,3 +209,7 @@ Representa o rodapé do conteúdo, sendo aceito dentro de vários elementos, com
 ### [**\<section\>**](#índice)
 
 Representa uma seção genérica do conteúdo, quando não há nenhuma estrutura específica para ela.
+
+Também podemos usar as tags de **\<h1\>** até **\<h6\>**. Elas não tem tanto valor semântico, sendo portadas de versões anteriores do HTML. Contudo, possuem um valor importante, denotando os títulos e subtítulos da página.
+
+É importante usar apenas um **\<h1\>** por página, pois ele irá representar o objetivo e conteúdo principal dela, sendo usado como referência em pesquisas.
