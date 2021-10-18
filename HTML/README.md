@@ -13,6 +13,9 @@
         3. [Elementos Aninhados](#elementos-aninhados)
 2. [Formatação](#formatação)
     1. [Semântica](#semântica)
+        1. [header](#header)
+        2. [article](#article)
+        3. [aside](#aside)
 
 
 # Começando
@@ -179,4 +182,12 @@ Porém, em 2014, com o advindo do HTML5, essa sopa de divs virou passado. Agora 
 
 ### [**\<header\>**](#índice)
 
-É o cabeçalho da página
+É o cabeçalho da página, geralmente contendo logomarcas, menus, campos de busca e informações pertinentes.
+
+### [**\<article\>**](#índice)
+
+Representa o conteúdo independente e de maior importância dentro da página, o conteúdo principal. Um article pode conter elementos aninhados, como header, cabeçalhos, parágrafos e imagens.
+
+### [**\<aside\>**](#índice)
+
+É a seção que engloba conteúdos relacionados ao conteúdo principal da página. Um bom exemplo são artigos relacionados, informações adicionais sobre o autor ou publicidade. Geralmente são posicionados como barras laterais.
