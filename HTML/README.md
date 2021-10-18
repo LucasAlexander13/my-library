@@ -16,6 +16,8 @@
         1. [header](#header)
         2. [article](#article)
         3. [aside](#aside)
+        4. [footer](#footer)
+        5. [section](#section)
 
 
 # Começando
@@ -186,8 +188,16 @@ Porém, em 2014, com o advindo do HTML5, essa sopa de divs virou passado. Agora 
 
 ### [**\<article\>**](#índice)
 
-Representa o conteúdo independente e de maior importância dentro da página, o conteúdo principal. Um article pode conter elementos aninhados, como header, cabeçalhos, parágrafos e imagens.
+Representa o conteúdo independente e de maior importância dentro da página, o conteúdo principal. Um article pode conter _elementos aninhados_, como header, cabeçalhos, parágrafos e imagens.
 
 ### [**\<aside\>**](#índice)
 
 É a seção que engloba conteúdos relacionados ao conteúdo principal da página. Um bom exemplo são artigos relacionados, informações adicionais sobre o autor ou publicidade. Geralmente são posicionados como barras laterais.
+
+### [**\<footer\>**](#índice)
+
+Representa o rodapé do conteúdo, sendo aceito dentro de vários elementos, como _article_, _section_ e até do _body_. Exemplos de conteúdo dentro do footer são informações sobre o autor ou links relacionados.
+
+### [**\<section\>**](#índice)
+
+Representa uma seção genérica do conteúdo, quando não há nenhuma estrutura específica para ela.
