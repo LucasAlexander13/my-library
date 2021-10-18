@@ -11,6 +11,8 @@
     6. [Tags ou Elementos?](#tags-ou-elementos)    
     7. [Elementos Vazios](#elementos-vazios)
     8. [Elementos Aninhados](#elementos-aninhados)
+2. [Formatação](#formatação)
+    1. [Semântica](#semântica)
 
 
 # Começando
@@ -89,7 +91,7 @@ Um comentário em HTML é inserido entre as tags \<!-- e --\>. Veja o mesmo exem
 
 Qualquer conteúdo inserido entre as tags de comentário será completamente _ignorado_ pelo navegador.
 
-### [Elementos](#índice)
+## [Elementos](#índice)
 
 Um elemento HTML é um componente individual que possui um significado ou semântica. Por exemplo, o elemento **título** representa o título do documento, podendo ser inserido entre a tag _head_ da seguinte forma:
 
@@ -164,3 +166,14 @@ Essa linha de de código irá exibir na tela algo semelhante a isso:
 Repare como mesmo contendo outros elementos, a estrutura do parágrafo se manteve a mesma.
 
 Você também deve ter reparado em dois novos estilos de marcação, o _itálico_ e o **negrito**, que são marcados pelos elementos **\<i\>** e **\<b\>**, respectivamente.
+
+# [Formatação](#índice)
+
+Agora que você já conhece o básico de HTML, Vamos nos aprofundar um pouco mais na formatação.
+
+## [Semântica](#índice)
+
+Durante muito tempo, o HTML seguiu um padrão baseado em _divs_, uma estrutura que permitia a criação de pequenos blocos de conteúdo para organizar a página.
+
+Porém, em 2014, com o advindo do HTML5, essa sopa de divs virou passado. Agora é possivel estruturar melhor as páginas, melhorando a _performance_ do conteúdo, e também permitindo uma maior _acessibilidade_. Entenda agora os elementos semânticos que formam a estrutura da página.
+
